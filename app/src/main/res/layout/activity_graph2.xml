@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.daniels.myapplication.Graph">
 
-    <ScrollView
+     <ScrollView
         android:layout_width="0dp"
         android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
@@ -20,20 +20,21 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="149dp"
+                android:layout_width="348dp"
+                android:layout_height="112dp"
                 app:srcCompat="@drawable/bitcoin"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="73dp"
+                android:layout_width="343dp"
+                android:layout_height="71dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
-                android:text="Bitcoin"
+                android:layout_weight="0.82"
+                android:text="  Bitcoin"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="240dp" />
@@ -46,23 +47,6 @@
                 android:inputType="textMultiLine"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="353dp" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="155dp"
-                app:srcCompat="@drawable/bcash"
-                tools:layout_editor_absoluteX="165dp"
-                tools:layout_editor_absoluteY="201dp"
-                android:layout_weight="1.15" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="94dp"
-                android:text="Bitcoin Cash"
-                tools:layout_editor_absoluteX="165dp"
-                tools:layout_editor_absoluteY="401dp" />
 
             <EditText
                 android:id="@+id/editText2"
@@ -80,10 +64,26 @@
                 app:srcCompat="@drawable/einsteinium" />
 
             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="364dp"
+                android:layout_height="94dp"
+                android:text="   Bitcoin Cash"
+                tools:layout_editor_absoluteX="165dp"
+                tools:layout_editor_absoluteY="401dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="330dp"
+                android:layout_height="119dp"
+                app:srcCompat="@drawable/bcash"
+                tools:layout_editor_absoluteX="165dp"
+                tools:layout_editor_absoluteY="201dp" />
+
+            <TextView
                 android:id="@+id/textView6"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="Einsteinium"
+                android:text="    Einsteinium"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="201dp" />
 
@@ -98,7 +98,7 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
+                android:layout_width="365dp"
                 android:layout_height="103dp"
                 app:srcCompat="@drawable/etherium" />
 
@@ -106,7 +106,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="TextView" />
+                android:text="   TextView" />
 
             <EditText
                 android:id="@+id/editText7"
@@ -127,7 +127,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="ethereumclassic" />
+                android:text="   ethereumclassic" />
 
             <EditText
                 android:id="@+id/editText8"
@@ -148,7 +148,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="litecoin" />
+                android:text="   litecoin" />
 
             <EditText
                 android:id="@+id/editText9"
@@ -169,7 +169,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="ripple" />
+                android:text="   ripple" />
 
             <EditText
                 android:id="@+id/editText10"
@@ -190,10 +190,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="zcash" />
-
-
-
+                android:text="   zcash" />
 
 
         </LinearLayout>

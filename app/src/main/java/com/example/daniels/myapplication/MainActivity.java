@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent i = new Intent(MainActivity.this, tableData.class);
+                Intent i = new Intent(MainActivity.this, Graph.class);
                 startActivity(i);
 
             }

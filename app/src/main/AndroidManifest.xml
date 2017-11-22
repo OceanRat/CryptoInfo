@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Graph"></activity>
+        <activity android:name=".Graph" />
+        <activity android:name=".Table"></activity>
     </application>
 
 </manifest>

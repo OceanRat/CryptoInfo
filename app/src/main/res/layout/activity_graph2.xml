@@ -34,7 +34,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_weight="0.82"
-                android:text="  Bitcoin"
+                android:text="  Bitcoin - the currency that started back in 2009. from few hundred USD it raised to 8.2k USD in the past several months. It is most popular currency on the internet and is accepted worldwide in the real life. "
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_editor_absoluteX="240dp" />
@@ -67,7 +67,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="364dp"
                 android:layout_height="94dp"
-                android:text="   Bitcoin Cash"
+                android:text="   Bitcoin cash - made after the famous Bitcoin 1st august 2017. Started the worth at 300 USD. Until the start of November it reached 1k, now days its worth around 1.5k and is still raising."
                 tools:layout_editor_absoluteX="165dp"
                 tools:layout_editor_absoluteY="401dp" />
 
@@ -83,7 +83,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="    Einsteinium"
+                android:text="    Einsteinium - worth is shown in the Bitcoins. It started on July 2017. Its price started at 0.000025 Bitcoins which is around 20c. Price is changing a lot, right now it is worth 0.000018 Bitcoins, which is around 14c. "
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="201dp" />
 
@@ -106,7 +106,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="   TextView" />
+                android:text="   Ethereum - started in july 2015. The price is raising and falling around 50 USD in circle. It is worth the most now – 416$. The lowest worth was 53%." />
 
             <EditText
                 android:id="@+id/editText7"
@@ -127,7 +127,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="   ethereumclassic" />
+                android:text="   Ethereumclassic - released in july 2015. It started at the worth of 0.92$, right now it is worth 18$. The top worth was in June when it was worth 21$." />
 
             <EditText
                 android:id="@+id/editText8"
@@ -148,7 +148,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="   litecoin" />
+                android:text="   Litecoin - it was released back in 2011. Just until recently its price hasn't been changing a lot. It was from 2-10$. From March 2017 its worth has been increasing and the maximum worth was 83$. Right now the worth is 73$." />
 
             <EditText
                 android:id="@+id/editText9"
@@ -169,7 +169,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="   ripple" />
+                android:text="   Ripple - currency released in 2012. For a long time its price was around 0.007$. From March 2017 its price has been increasing. The top worth was in end May – around 39$. Current worth is 0.24$." />
 
             <EditText
                 android:id="@+id/editText10"
@@ -190,7 +190,7 @@
                 android:id="@+id/textView9"
                 android:layout_width="351dp"
                 android:layout_height="82dp"
-                android:text="   zcash" />
+                android:text="   Zcash - the currency that probably changed the most in the negative way. It got out in end October 2016 with the starting worth of 9k USD. At the start of 2017 it dropped all the way down to 26$. Current worth is around 250$." />
 
 
         </LinearLayout>

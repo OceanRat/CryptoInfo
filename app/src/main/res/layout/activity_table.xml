@@ -7,10 +7,10 @@
     tools:context="com.example.daniels.myapplication.Table">
 
 
-    <!-- column1 -->
+    <!-- column 1 -->
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/coinName"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
@@ -19,335 +19,334 @@
         android:text="Name" />
 
     <TextView
-    android:id="@+id/textView12"
-    android:layout_width="100dp"
-    android:layout_height="50dp"
-        android:gravity="center"
-    android:layout_alignBottom="@+id/textView11"
-        android:layout_toEndOf="@+id/textView11"
-    android:text="Value" />
-
-    <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/coinValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView12"
+        android:layout_toEndOf="@+id/coinName"
+        android:text="Value €" />
+
+    <TextView
+        android:id="@+id/coinChange"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/coinValue"
         android:text="Change" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/coinShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textView13"
+        android:layout_toEndOf="@+id/coinChange"
         android:text="Coin" />
 
     <!-- column 2 -->
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/bitcoin"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView11"
+        android:layout_below="@+id/coinName"
         android:text="Bitcoin" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/bitcoinValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView11"
-        android:layout_toEndOf="@+id/textView15"
-        android:text="7011.38€" />
+        android:layout_below="@+id/coinValue"
+        android:layout_toEndOf="@+id/bitcoin"
+        android:text="7011.38" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/bitcoinChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView12"
-        android:layout_toEndOf="@+id/textView16"
+        android:layout_below="@+id/coinChange"
+        android:layout_toEndOf="@+id/bitcoinValue"
         android:text="+1.2%" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/bitcoinShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView12"
-        android:layout_toEndOf="@+id/textView17"
-        android:text="BTC" />
+        android:text="BTC"
+        android:layout_below="@+id/coinShort"
+        android:layout_toEndOf="@+id/coinChange" />
 
     <!-- column 3 -->
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/bitcoinCash"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView15"
+        android:layout_below="@+id/bitcoin"
         android:text="Bitcoin Cash" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/bitcoinCashValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView15"
-        android:layout_toEndOf="@+id/textView19"
-        android:text="1007.88€" />
+        android:layout_below="@+id/bitcoinValue"
+        android:layout_toEndOf="@+id/bitcoinCash"
+        android:text="1007.88" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/bitcoinCashChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView16"
-        android:layout_toEndOf="@+id/textView20"
+        android:layout_below="@+id/bitcoinChange"
+        android:layout_toEndOf="@+id/bitcoinCashValue"
         android:text="+0.42%" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/bitcoinCashShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView16"
-        android:layout_toEndOf="@+id/textView21"
+        android:layout_below="@+id/bitcoinShort"
+        android:layout_toEndOf="@+id/bitcoinCashChange"
         android:text="BCH" />
 
     <!-- column 4 -->
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/ethereum"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView19"
+        android:layout_below="@+id/bitcoinCash"
         android:text="Ethereum" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/ethereumValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView19"
-        android:layout_toEndOf="@+id/textView23"
-        android:text="312.78€" />
+        android:layout_below="@+id/bitcoinCashValue"
+        android:layout_toEndOf="@+id/ethereum"
+        android:text="312.78" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/ethereumChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView20"
-        android:layout_toEndOf="@+id/textView24"
+        android:layout_below="@+id/bitcoinCashChange"
+        android:layout_toEndOf="@+id/ethereumValue"
         android:text="+2.35%" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/ethereumShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView20"
-        android:layout_toEndOf="@+id/textView25"
+        android:layout_below="@+id/bitcoinCashShort"
+        android:layout_toEndOf="@+id/ethereumChange"
         android:text="ETH" />
 
     <!-- column 5 -->
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/ethereumClassic"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView23"
+        android:layout_below="@+id/ethereum"
         android:text="Ethereum Classic" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/ethereumClassicValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView24"
-        android:layout_toEndOf="@+id/textView23"
-        android:text="15.52€" />
+        android:layout_below="@+id/ethereumValue"
+        android:layout_toEndOf="@+id/ethereumClassic"
+        android:text="15.52" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/ethereumClassicChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView24"
-        android:layout_toEndOf="@+id/textView28"
+        android:layout_below="@+id/ethereumChange"
+        android:layout_toEndOf="@+id/ethereumClassicValue"
         android:text="-1.49%" />
 
     <TextView
-        android:id="@+id/textView30"
+        android:id="@+id/ethereumClassicShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView25"
-        android:layout_toEndOf="@+id/textView29"
+        android:layout_below="@+id/ethereumShort"
+        android:layout_toEndOf="@+id/ethereumClassicChange"
         android:text="ETC" />
 
     <!-- column 6 -->
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/litecoin"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView27"
+        android:layout_below="@+id/ethereumClassic"
         android:text="Litecoin" />
 
     <TextView
-        android:id="@+id/textView32"
+        android:id="@+id/litecoinValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView28"
-        android:layout_toEndOf="@+id/textView31"
-        android:text="60.70€" />
+        android:layout_below="@+id/ethereumClassicValue"
+        android:layout_toEndOf="@+id/litecoin"
+        android:text="60.70" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/litecoinChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView29"
-        android:layout_toEndOf="@+id/textView32"
+        android:layout_below="@+id/ethereumClassicChange"
+        android:layout_toEndOf="@+id/litecoinValue"
         android:text="-0.11%" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/litecoinShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView29"
-        android:layout_toEndOf="@+id/textView33"
+        android:layout_below="@+id/ethereumClassicShort"
+        android:layout_toEndOf="@+id/litecoinChange"
         android:text="LTC" />
 
     <!-- column 7 -->
 
     <TextView
-        android:id="@+id/textView35"
+        android:id="@+id/ripple"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView31"
+        android:layout_below="@+id/litecoin"
         android:text="Ripple" />
 
     <TextView
-        android:id="@+id/textView36"
+        android:id="@+id/rippleValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView31"
-        android:layout_toEndOf="@+id/textView35"
-        android:text="0.20€" />
+        android:layout_below="@+id/litecoinValue"
+        android:layout_toEndOf="@+id/ripple"
+        android:text="0.20" />
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/rippleChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView32"
-        android:layout_toEndOf="@+id/textView36"
+        android:layout_below="@+id/litecoinChange"
+        android:layout_toEndOf="@+id/rippleValue"
         android:text="-0.08%" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/rippleShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView32"
-        android:layout_toEndOf="@+id/textView37"
+        android:layout_below="@+id/litecoinShort"
+        android:layout_toEndOf="@+id/rippleChange"
         android:text="XRP" />
 
     <!-- column 8 -->
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/einsteinium"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView35"
+        android:layout_below="@+id/ripple"
         android:text="Einsteinium" />
 
     <TextView
-        android:id="@+id/textView40"
+        android:id="@+id/einsteiniumValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="0.12€"
-        android:layout_below="@+id/textView36"
-        android:layout_alignBottom="@+id/textView39"
-        android:layout_toEndOf="@+id/textView39" />
+        android:text="0.12"
+        android:layout_below="@+id/rippleValue"
+        android:layout_toEndOf="@+id/einsteinium" />
 
     <TextView
-        android:id="@+id/textView41"
+        android:id="@+id/einsteiniumChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView36"
-        android:layout_toEndOf="@+id/textView40"
+        android:layout_below="@+id/rippleChange"
+        android:layout_toEndOf="@+id/einsteiniumValue"
         android:text="+0.07%" />
 
     <TextView
-        android:id="@+id/textView42"
+        android:id="@+id/einsteiniumShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView38"
-        android:layout_toEndOf="@+id/textView37"
+        android:layout_below="@+id/rippleShort"
+        android:layout_toEndOf="@+id/einsteiniumChange"
         android:text="EMC2" />
 
     <!-- column 9 -->
 
     <TextView
-        android:id="@+id/textView43"
+        android:id="@+id/zcash"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView39"
+        android:layout_below="@+id/einsteinium"
         android:text="Zcash" />
 
     <TextView
-        android:id="@+id/textView44"
+        android:id="@+id/zcashValue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView40"
-        android:layout_toEndOf="@+id/textView43"
-        android:text="252.14€" />
+        android:layout_below="@+id/einsteiniumValue"
+        android:layout_toEndOf="@+id/zcash"
+        android:text="252.14" />
 
     <TextView
-        android:id="@+id/textView45"
+        android:id="@+id/ZcashChange"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
         android:text="-1.34%"
-        android:layout_below="@+id/textView40"
-        android:layout_toEndOf="@+id/textView44" />
+        android:layout_below="@+id/einsteiniumChange"
+        android:layout_toEndOf="@+id/zcashValue" />
 
     <TextView
-        android:id="@+id/textView46"
+        android:id="@+id/zcashShort"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:layout_below="@+id/textView42"
-        android:layout_toEndOf="@+id/textView41"
+        android:layout_below="@+id/einsteiniumShort"
+        android:layout_toEndOf="@+id/ZcashChange"
         android:text="ZEC" />
 
 </RelativeLayout>

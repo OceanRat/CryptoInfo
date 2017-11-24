@@ -2,6 +2,8 @@ package com.example.daniels.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.GridView;
 
 import java.util.ArrayList;
 
@@ -9,6 +11,7 @@ public class tableData extends AppCompatActivity
 {
 
     ArrayList<String> data;
+    GridView gridView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -61,6 +64,11 @@ public class tableData extends AppCompatActivity
         data.add("-1.34%");
         data.add("ZEC");
 
+        gridView = (GridView) findViewById(R.id.gridView);
+
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
+
+        gridView.setAdapter(itemsAdapter);
 
     }
 }
